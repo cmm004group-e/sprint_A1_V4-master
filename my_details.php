@@ -98,16 +98,16 @@ if(empty($_SESSION['firstname']))
                 <p><a href="mailto:<?php echo $_SESSION['email'];?>">
                         <img src="assets/Images/email.png" class="img-thumbnail img-responsive" width="30px" height="20px"></a>
 
-                <a href="?php echo $_SESSION['linkedin']; ?>">
+                <a href="<?php echo $_SESSION['linkedin']; ?>">
                     <img src="assets/Images/linkedin.png" class="img-thumbnail img-responsive" width="30px" height="20px"></a>
 
-                <a href="?php echo $_SESSION['twitter']; ?>">
+                <a href="<?php echo $_SESSION['twitter']; ?>">
                         <img src="assets/Images/twitter.png" class="img-thumbnail img-responsive" width="30px" height="20px"></a>
 
-                <a href="?php echo $_SESSION['instagram']; ?>"><p></p>
+                <a href="<?php echo $_SESSION['instagram']; ?>"><p></p>
                     <img src="assets/Images/instagram.png" class="img-thumbnail img-responsive" width="30px" height="20px"></a>
 
-                <a href="?php echo $_SESSION['facebook']; ?>">
+                <a href="<?php echo $_SESSION['facebook']; ?>">
                     <img src="assets/Images/facebook.png" class="img-thumbnail img-responsive" width="30px" height="20px"></a></p>
 
                <p class='right-side'><?php echo $_SESSION['job_desc']; ?></p>
